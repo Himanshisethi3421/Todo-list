@@ -13,16 +13,17 @@
     background-color: transparent;
     position: absolute;
     left: 38%;
-    top: 45%;
+    top: 25%;
     overflow: auto;
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 500;
+    color: antiquewhite;
 }
 button i{
-    font-size: 20px;
+    font-size: 25px;
     color: tomato;
     font-weight: 700;
 
@@ -30,4 +31,8 @@ button i{
 button{
     margin-left: 90%;
     border: none;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
 }

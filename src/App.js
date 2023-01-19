@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Task from './Component/TaskAdd';
+import Task from './Component/Task/TaskAdd';
 import "./App.css"
 import Show from "./Component/ShowTask";
 
@@ -31,8 +31,10 @@ function App() {
 
  
   return <div className='main'>
+    <div id='nav'>
+     <h2>TO-DO List Web App</h2> 
+      </div>
   <div className='childmain'>
-    <h3>TODO LIST</h3>
       <Task  dataLekeJaunga = {childToParentDataSet} />
     </div>
       <Show dataToShow = {state} dataFilter = {DataFilter}/> 
